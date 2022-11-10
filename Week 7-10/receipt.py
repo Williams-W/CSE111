@@ -37,5 +37,5 @@ def create_requests(request, products):
         request_quantity.append(request_statement)
 
     return request_quantity
-
+ 
 main()
