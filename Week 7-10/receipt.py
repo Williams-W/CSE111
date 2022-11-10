@@ -6,7 +6,7 @@ def main():
     request = pd.read_csv("https://byui-cse.github.io/cse111-course/lesson09/request.csv")
 
     all_products = create_dict(products)
-    print(all_products)
+    print(all_products) 
     print()
 
     all_requests = create_requests(request, all_products)
